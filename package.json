@@ -1,0 +1,56 @@
+{
+  "name": "catcheck",
+  "version": "0.0.1",
+  "description": "CatCheck",
+  "productName": "CatCheck",
+  "author": "dzmitryabramenia <dzmitryabramenia@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "test": "echo \"No test specified\" && exit 0",
+    "deploy": "heroku builds: create -a quasar"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@quasar/cli": "^1.3.2",
+    "@quasar/extras": "^1.0.0",
+    "apexcharts": "^3.35.2",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "firebase": "^9.5.0",
+    "firebase-functions": "^3.20.1",
+    "quasar": "^2.0.0",
+    "twitter-api-v2": "^1.12.0",
+    "vue-i18n": "^9.0.0",
+    "vue-trading-view": "^1.0.1",
+    "vue3-apexcharts": "^1.4.1",
+    "vuex": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@quasar/app": "^3.0.0",
+    "@quasar/quasar-app-extension-dotenv": "^1.1.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "eslint-webpack-plugin": "^2.4.0",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "sitemap-webpack-plugin": "^1.1.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
